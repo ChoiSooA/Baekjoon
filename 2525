@@ -1,0 +1,17 @@
+string[] a = Console.ReadLine().Split();
+            int hour = int.Parse(a[0]);
+            int minute  = int.Parse(a[1]);
+            int time = hour * 60 + minute;
+
+            int plusTime = int.Parse(Console.ReadLine());
+
+            int finalTime = time + plusTime;
+
+            if (finalTime >= 1440)
+            {
+                finalTime = finalTime - 1440;
+            }
+            int finalHour = finalTime / 60;
+            int finalMin = finalTime % 60;
+
+            Console.WriteLine(finalHour + " " + finalMin);
