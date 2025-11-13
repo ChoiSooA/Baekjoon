@@ -1,0 +1,7 @@
+string[] A = Console.ReadLine().Split();
+
+Console.WriteLine(int.Parse(A[0]) + int.Parse(A[1]));
+Console.WriteLine(int.Parse(A[0]) - int.Parse(A[1]));
+Console.WriteLine(int.Parse(A[0]) * int.Parse(A[1]));
+Console.WriteLine(int.Parse(A[0]) / int.Parse(A[1]));
+Console.WriteLine(int.Parse(A[0]) % int.Parse(A[1]));
