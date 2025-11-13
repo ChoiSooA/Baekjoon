@@ -1,0 +1,2 @@
+            string[] a = Console.ReadLine().Split();
+            Console.WriteLine(long.Parse(a[0]) + long.Parse(a[1]) + long.Parse(a[2]));
