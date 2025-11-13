@@ -1,0 +1,14 @@
+string[] a = Console.ReadLine().Split();
+            int one = int.Parse(a[0]);
+            int two = int.Parse(a[1]);
+            if (one > two)
+            {
+                Console.WriteLine(">");
+            }else if (one < two)
+            {
+                Console.WriteLine("<");
+            }
+            else
+            {
+                Console.WriteLine("==");
+            }
