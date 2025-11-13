@@ -1,0 +1,2 @@
+            string A = Console.ReadLine();
+            Console.WriteLine(int.Parse(A) - 543);
